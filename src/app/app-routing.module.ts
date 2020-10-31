@@ -32,6 +32,11 @@ const routes: Routes = [
       .then(mod => mod.TutorialModule)
   },
   {
+    path: 'charts1',
+    loadChildren: () => import('./modules/application/example-characteristics/tutorial.module')
+      .then(mod => mod.TutorialModule)
+  },
+  {
     path: 'httpclient',
     loadChildren: () => import('./modules/application/items/items.module')
       .then(mod => mod.ItemsModule)

@@ -37,6 +37,18 @@ export class AppComponent {
       ]
     },
     {
+      name: 'Characteristics', link: 'Characteristics',
+      elements: [
+        { name: 'charts', link: 'charts1' }
+        // { name: 'leaflet', link: 'leaflet' },
+        // { name: 'movies-images-list', link: 'movies-images-list' },
+        // { name: 'httpclient', link: 'httpclient' },
+        // { name: 'template-driven-forms', link: 'template-driven-forms' },
+        // { name: 'components', link: 'components' },
+        // { name: 'services', link: 'services' }
+      ]
+    },
+    {
       name: 'CRUD', link: 'crud',
       elements: [
         { name: 'continents', link: 'crud/continents' },
