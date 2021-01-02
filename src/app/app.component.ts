@@ -36,6 +36,17 @@ export class AppComponent {
         { name: 'services', link: 'services' }
       ]
     },
+    {name: 'Chad',
+      elements: [
+        { name: 'continents', link: 'crud/continents' },
+        { name: 'countries', link: 'crud/countries' },
+        { name: 'cities', link: 'crud/cities' },
+        { name: 'shows', link: 'crud/shows' },
+        { name: 'movies', link: 'crud/movies' },
+        { name: 'shows-images', link: 'crud/shows-images' },
+        { name: 'movies-images', link: 'crud/movies-images' },
+      ]
+    },
     {
       name: 'CRUD', link: 'crud',
       elements: [
